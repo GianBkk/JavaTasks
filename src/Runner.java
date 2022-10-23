@@ -6,5 +6,4 @@ public class Runner {
         Main.verzweigungen();
     }
 
-
 }

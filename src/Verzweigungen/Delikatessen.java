@@ -16,6 +16,8 @@ public class Delikatessen {
         map.put("Kaffee", 10);
         map.put("Tee", 10);
 
+        System.out.println(map.keySet());
+
         HashMap<String, Integer> wagen = new HashMap<>();
 
 
@@ -89,9 +91,6 @@ public class Delikatessen {
             sum = sum + versand + express;
             System.out.println("Summe: " + sum + " Euro\n");
             System.out.println("Danke fuer ihren Einkauf!");
-
-
-
 
         }
         else System.out.println("Sie haben nichts gekauft!");

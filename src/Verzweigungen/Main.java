@@ -10,7 +10,8 @@ public class Main {
         //Discount.discount();
         //Death_Valley.run(s);
         //FettCalc.run(s);
-        Delikatessen.run(s);
+        //Delikatessen.run(s);
+        DampfMaschine.run(s);
     }
 
 }
