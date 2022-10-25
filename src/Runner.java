@@ -1,9 +1,9 @@
-import Verzweigungen.Main;
+import SchulUebungen.Main;
 
 public class Runner {
 
     public static void runCode(){
-        Main.verzweigungen();
+        Main.schueluebungen();
     }
 
 }

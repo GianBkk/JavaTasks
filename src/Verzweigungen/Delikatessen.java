@@ -16,7 +16,7 @@ public class Delikatessen {
         map.put("Kaffee", 10);
         map.put("Tee", 10);
 
-        System.out.println(map.keySet());
+        //System.out.println(map.keySet());
 
         HashMap<String, Integer> wagen = new HashMap<>();
 
@@ -34,11 +34,7 @@ public class Delikatessen {
                 ordering = getAllWagen(wagen, s, ordering);
             }
         }
-
         rechnung(wagen, sum, s, ordering);
-
-
-
     }
 
     public static void getAllItems(HashMap<String, Integer> map){
